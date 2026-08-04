@@ -3,6 +3,7 @@
 [![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-009688?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com/)
 [![LangGraph](https://img.shields.io/badge/LangGraph-AI-blue?style=for-the-badge)](https://python.langchain.com/)
+[![MCP](https://img.shields.io/badge/MCP-Protocol-8A2BE2?style=for-the-badge)](https://modelcontextprotocol.io/)
 [![Docker](https://img.shields.io/badge/Docker-Sandboxed-2496ED?style=for-the-badge&logo=docker)](https://www.docker.com/)
 
 **AgentGraph** is an autonomous, multi-agent AI framework designed to resolve GitHub issues end-to-end. You provide a GitHub Issue URL, and AgentGraph takes over: it researches the codebase, plans a fix, writes the code, generates tests, verifies everything inside an isolated Docker sandbox, and finally opens a Pull Request.
@@ -97,4 +98,4 @@ npx @modelcontextprotocol/inspector uv run backend/mcp_server.py
 - **Branch-Only Writes**: The agent is hardcoded to never push directly to `main` or `master`. It exclusively creates side branches and opens Pull Requests for human review.
 
 ---
-*Built with Next.js, FastAPI, LangGraph, and Google Gemini.*
+*Built with Next.js, FastAPI, LangGraph, Model Context Protocol (MCP), and Google Gemini.*

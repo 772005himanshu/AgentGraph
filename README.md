@@ -101,3 +101,4 @@ npx @modelcontextprotocol/inspector uv run backend/mcp_server.py
 
 ---
 *Built with Next.js, FastAPI, LangGraph, Model Context Protocol (MCP), and Google Gemini.*
+
